@@ -42,7 +42,7 @@
 }
 .img{
     position: absolute;
-    background: url("/200w\ \(1\).gif") center center / cover no-repeat ;
+    background: url("/img/200w\ \(1\).gif") center center / cover no-repeat ;
     width: 400px;
     height: 364px;
     margin-top: 90px;

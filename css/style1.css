@@ -12,14 +12,14 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url("/love-background.jpg")  center / cover no-repeat;
+    background: url("/img/love-background.jpg")  center / cover no-repeat;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .body.body2{
-    background: url("/bacgground2.jpg") center/cover no-repeat;
+    background: url("/img/bacgground2.jpg") center/cover no-repeat;
 }
 .text{
     position: absolute;
@@ -67,7 +67,7 @@ button{
     opacity: 0.8;
 }
 .img{
-    background: url("/ảnh-meme-tặng-bông.jpg") center center / cover no-repeat ;
+    background: url("/img/ảnh-meme-tặng-bông.jpg") center center / cover no-repeat ;
     width: 500px;
     height: 502px;
     margin-top: 90px;
@@ -77,31 +77,31 @@ button{
     display: block;
 }
 .img.img1{
-    background: url("/mèo-buồn.gif") center center / cover no-repeat ;
+    background: url("/img/mèo-buồn.gif") center center / cover no-repeat ;
     width: 700px;
     height: 412px;
     margin-top: 90px;
 }
 .img.img2{
-    background: url("/Meo-danh-may-AVA.gif") center center / cover no-repeat ;
+    background: url("/img/Meo-danh-may-AVA.gif") center center / cover no-repeat ;
     width: 500px;
     height: 375px;
     margin-top: 90px;
 }
 .img.img3{
-    background: url("/cat-happy.gif") center center / cover no-repeat ;
+    background: url("/img/cat-happy.gif") center center / cover no-repeat ;
     width: 488px;
     height: 352px;
     margin-top: 90px;
 }
 .img.img4{
-    background: url("/86b3315f71d8e1177f32d8007aa49ceb.gif") center center / cover no-repeat ;
+    background: url("/img/86b3315f71d8e1177f32d8007aa49ceb.gif") center center / cover no-repeat ;
     width: 640px;
     height: 540px;
     margin-top: 90px;
 }
 .img.img5{
-    background: url("/200w.gif") center center / cover no-repeat ;
+    background: url("/img/200w.gif") center center / cover no-repeat ;
     width: 600px;
     height: 492px;
     margin-top: 90px;
