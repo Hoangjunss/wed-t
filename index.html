@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+   <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="body">
+            <h1 class="text" style="margin-top: -200px;" data-text="xin chào đại ka có bất ngờ cho em nè ">xin chào đại ka có bất ngờ cho em nè </h1>
+            <h2  style=" color:#252839 ;" data-text="cố xem đến cuối nha"> cố xem đến cuối nha</h2>
+            <a href="./index1.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                đồng ý
+            </a>
+            <button  style="display: none;" onclick="playaudio('sound.mp3')">chạy</button>
+            <img src="/cuteCat.jpg" alt="">
+        </div>
+   
+    </div>
+    <script>
+        var index=0;
+       /* setTimeout(() => {
+            playaudio('sound/sound.mp3'); 
+        }, 2000);*/
+        
+        
+        var text2=document.querySelector("h2");
+        var btn=document.querySelector("a");
+        var b=document.querySelector("button");
+        b.addEventListener("click",playaudio('sound.mp3'))
+        setTimeout(() => {
+            btn.classList.add('open');
+        }, 8000);
+        setTimeout(() => {
+            text2.classList.add('text');
+        }, 4000);
+        function playaudio(audioname){
+            
+            let audio=new Audio(audioname);
+            audio.play();
+            
+        };
+        
+        
+    </script>
+</body>
+</html>

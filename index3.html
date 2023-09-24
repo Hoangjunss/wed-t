@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style3.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <nav>
+                <ul>
+                    <li><a href="">tháng 5</a></li>
+                    <li><a href="">tháng 6</a></li>
+                    <li><a href="">tháng 7</a></li>
+                    <li><a href="">tháng 8</a></li>
+                    <li><a href="">tháng 9</a></li>
+                </ul>   
+            </nav>
+        </div>
+        <div class="slider">
+            <div class="slider-left">
+                <h1>lưu dữ kỉ niệm</h1>
+                <p>cùng lưu giữ lại những kỉ niệm của chúng ta</p>
+                <p>gửi châu thị phương dung</p>
+            </div>
+            <div class="slider-right"></div>
+        </div>
+        <div class="content"></div>
+    </div>
+    <script>
+        var index=0;
+        setInterval(() => {
+            changebg();
+        }, 4000);
+        function changebg(){
+           document.querySelector(".main").classList.toggle("change")
+        }
+    </script>
+</body>
+</html>

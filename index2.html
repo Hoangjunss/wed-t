@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style2.css">
+    
+    
+</head>
+<body>
+    <div id="main">
+        <div class="body">
+            <h1 class="text" style="margin-top: -500px;" data-text="cùng xem video của chị Dung nào  ">cùng xem video của chị Dung nào   </h1>
+            <div class="img"></div>
+            <div class="container">
+                <div class="box">
+                    <video class="clip" src="/382885335_6875890582447214_3204610580245777794_n.mp4" type="video/mp4" loop></video>
+                </div>
+                <div class="box">
+                    <video class="clip" src="/379380705_6752048964891185_3249748102473568038_n.mp4" type="video/mp4" loop></video>
+                </div>
+                <div class="box">
+                    <video class="clip" src="/381212633_6466422590078417_2574473145467790305_n.mp4" type="video/mp4" loop></video>
+                </div>
+                <div class="box">
+                    <video class="clip" src="/381223479_7740308969329302_732646452644504735_n.mp4" type="video/mp4" loop></video>
+                </div>
+            </div>
+            <a href="./code trai tim.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                tiếp theo
+            </a>
+        </div>
+    </div>
+    <script>
+        const clip=document.querySelectorAll(".clip")
+        const video=document.querySelector(".container")
+        var btn=document.querySelector("a");
+       
+            for (let index = 0; index < clip.length; index++) {
+            clip[index].addEventListener('mouseenter',function(e){
+                clip[index].play();
+               
+            })
+            clip[index].addEventListener('mouseout',function(e){
+                clip[index].pause();
+               
+            })
+            
+        }
+        
+        
+        setTimeout(() => {
+            video.classList.add("open")
+            btn.classList.add('open');
+            
+        }, 4000);
+
+    </script>
+</body>
+</html>
